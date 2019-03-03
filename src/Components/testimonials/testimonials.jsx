@@ -7,68 +7,72 @@ export default class Testimonials extends Component {
     let resumeData = this.props.resumeData;
     
 	return (
-      <React.Fragment>
+  <section>
+  <div className="s-testimonials">
 
-
-
-<section>
-<div className="s-testimonials">
-
-        <div className="overlay"/>
-
-        <div className="row testimonials-header">
-            <div className="col-full">
-                <h1 className="h02">What People Say.</h1>
-            </div>
-        </div>
-
-        <div className="row testimonials">
-
-            <div className="col-full testimonials__slider slick-initialized slick-slider">
-              <div className="slick-prev slick-arrow" style="">
-                <i className="im im-arrow-left" aria-hidden="true"/>
+          <div className="overlay"/>
+          <div className="row testimonials-header">
+              <div className="col-full">
+                  <h1 className="h02">What People Say.</h1>
               </div>
-
-    {/*}    var arr = [];            
-        var certList = {this.props.resumeData.testimonials.map((certList, index) => {
-            return (
-              <div className="testimonials__slide slick-slide slick-cloned" tabindex="-1" role="option" aria-describedby="slick-slide01" style="width: 462px;" data-slick-index="-2" aria-hidden="true">
-                <li key={certList + index}>
-                    <img src="images/avatars/user-05.jpg" alt="Author image" className="testimonials__avatar"/>
-                            <p>{item.description}</p>
-                            <div className="testimonials__author h06">
-                                 {item.name}
-                                <span>{item.expiration}</span>
-                             </div>
-                </li>
-              </div>  
-            );
-        })}            
-
-            arr.push(
-                <div key="certList" className="row about-content about-content--timeline">     
-                    <div aria-live="polite" className="slick-list draggable">
-                      <div class="slick-track" style="opacity: 1; width: 3234px; transform: translate3d(-1848px, 0px, 0px);" role="listbox">
-                              <ul className="certifications">
-                              {certList}
-                              </ul>
-                      </div>
+          </div>
+          <div className="row blog-content testimonial-content">
+              <div className="col-full">
+                <div className="blog-list block-1-2 block-tab-full">
+                  <article className="col-block">
+                    <div className="blog-date">
+                      <a href="blog-single.html">Sept 16, 2017</a>
+                    </div>  
+                    <h2 className="h01"><a href="blog-single.html">The 10 Golden Rules of Clean Simple Design.</a></h2>
+                    <p>
+                      Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+                    </p>
+                    <div className="blog-cat">
+                      <a href="blog.html">Branding</a><a href="blog.html">Design</a>
                     </div>
-                  </div>
-            );
-            */}
-            <div className="slick-next slick-arrow" style="">
-                <i className="im im-arrow-right" aria-hidden="true"/>
-            </div>
-        </div>
-
-        </div> 
-      </div>
-    
-</section>
+                  </article>
+                  <article className="col-block">
+                    <div className="blog-date">
+                      <a href="blog-single.html">Sept 15, 2017</a>
+                    </div>  
+                    <h2 className="h01"><a href="blog-single.html">Photography Can Improve Your Graphic Design.</a></h2>
+                    <p>
+                      Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+                    </p>
+                    <div className="blog-cat">
+                      <a href="blog.html">Photography</a>
+                    </div>
+                  </article>
+                  <article className="col-block">
+                    <div className="blog-date">
+                      <a href="blog-single.html">Sept 14, 2017</a>
+                    </div>
+                    <h2 className="h01"><a href="blog-single.html">Workspace Design Trends and Ideas.</a></h2>
+                    <p>
+                      Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
+                    </p>
+                    <div className="blog-cat">
+                      <a href="blog.html">Branding</a><a href="blog.html">Wordpress</a>
+                    </div>
+                  </article>
+                  <article className="col-block">
+                    <div className="blog-date">
+                      <a href="blog-single.html">Sept 12, 2017</a>
+                    </div>    
+                    <h2 className="h01"><a href="blog-single.html">Using Patterns in your Branding.</a></h2>
+                    <p>
+                      Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
+                    </p>
+                    <div className="blog-cat">
+                      <a href="blog.html">Design</a><a href="blog.html">Branding</a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div> 
+  </div>
+  </section>
    
-
-</React.Fragment> 
    );
   }
 }

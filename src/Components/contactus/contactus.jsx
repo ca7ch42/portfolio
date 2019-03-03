@@ -57,10 +57,10 @@ export default class ContactUs extends Component{
         
       </div>
               <div className="col-four tab-full contact__infos">
-                        <h4 class="h06">Email</h4>
+                        <h4 className="h06">Email</h4>
                         <span>{resumeData.email}</span>
                 
-                        <h4 class="h06">Address</h4>
+                        <h4 className="h06">Address</h4>
                         <span> {resumeData.address}</span>
                         
                         <h4 className="h06">Website</h4>
