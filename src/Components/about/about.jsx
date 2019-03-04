@@ -39,7 +39,7 @@ export default class About extends Component {
           </div> 
         </li>
     );
-  })
+  });
 
   arr.push(
     <div key="aboutMe">
@@ -50,12 +50,25 @@ export default class About extends Component {
               </div>
           </div>
 
+{/*}      var educationList = this.props.resumeData.educationArr.map((educationItem, index) => {
+        return (
+          <li key={educationItem + index}>
+            <div className={{educationItem.timeframe}}>
+                <p>{educationItem.timeframe}</p>
+                <h3>{educationItem.UniversityName}</h3>
+                <h5>{educationItem.specialization}</h5>
+            </div>
+          </li>
+        );
+      });  */}
+
           <div className="row about-content">
             <div className="col-six tab-full left">
-              <h3>Howdy!</h3>
+              <h3>Hello!</h3>
               <p>{this.props.resumeData.aboutme}</p>
               <p>{this.props.resumeData.skillsDescription}</p>
-            </div>
+            </div>  
+                              
           <div key="skillTable" className="col-six tab-full right">
               <h3>Web Development and Information Technology Skills.</h3>
               <ul className="skill-bars">
@@ -95,7 +108,7 @@ export default class About extends Component {
   arr.push(
         <div key="workList" className="row about-content about-content--timeline">
             <div className="col-full text-center">
-              <h3>My Work Experience.</h3>
+              <h3>Work Experience.</h3>
             </div>
             <div className="col-six tab-full left">
               <div className="timeline">

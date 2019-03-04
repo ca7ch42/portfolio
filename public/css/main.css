@@ -1380,11 +1380,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .blog-list .blog-date {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
-    color: #862121;
+    color:#f62626;
 }
 
 .blog-list .blog-date a {
-    color: #862121;
+    color: #f62626;
 }
 
 .blog-list .blog-date a:hover, 
