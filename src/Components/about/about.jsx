@@ -60,9 +60,11 @@ export default class About extends Component {
               return (
                 <li key={educationItem + index}>
                   <div>
-                      <h3>{educationItem.UniversityName}</h3>
-                      <h6>{educationItem.specialization}</h6>
+                      <h6>{educationItem.universityName}</h6>
+                          {educationItem.specialization}   
+                          <p className="bigSpace"/>                     
                           {educationItem.timeframe}
+                          <p/>
                   </div>
                 </li>
               );

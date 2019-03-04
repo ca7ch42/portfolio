@@ -42,13 +42,7 @@ let resumeData = {
 			"specialization":"B.S. Biomedical Engineering",
 			"timeframe":"May 2004 - December 2008",
 		}, 
-		
-	  {
-		 "universityName":"CriticalPoint LLC",
-			"specialization":"Sterile Compounding eLesson Curriculum",
-			"timeframe":"December 2016", 
-		},     
-		      
+			      
   	{
 		"universityName":"Universidad de Navarra",  
 		"specialization":"Pharmacy Work Abroad",
@@ -59,7 +53,13 @@ let resumeData = {
 		"universityName":"Hong Kong University of Science and Technology",  
 		"specialization":"Electrical Engineering, GT Study Abroad Program",
 		"timeframe":"August 2006 – January 2007",
-  }
+	},
+
+	{
+		"universityName":"CriticalPoint LLC",
+		 "specialization":"Sterile Compounding eLesson Curriculum",
+		 "timeframe":"December 2016", 
+	 }  
 ],
 
     workExpArr:[
