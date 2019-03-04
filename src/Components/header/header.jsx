@@ -11,26 +11,21 @@ export default class Header extends Component {
 		<> 
 			<header> 
 			<div className="s-header">
-					<div className="header-logo">
-						<a className="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage" /></a>
-					</div>
 					<Particles  width={800} height={150}  />
 					<nav className="header-nav-wrap">
 						<ul className="header-nav">
 							<li className="current"><a className="smoothscroll" href="#home" title="home">Home</a></li>
 							<li><a className="smoothscroll" href="#about" title="about">About</a></li>
 							<li><a className="smoothscroll" href="#works" title="works">Works</a></li>
-							<li><a className="smoothscroll" href="#blog" title="blog">Blog</a></li>
+							<li><a className="smoothscroll" href="#blog" title="blog">Publications</a></li>
 							<li><a className="smoothscroll" href="#contact" title="contact">Contact</a></li>
 						</ul>
 					</nav>
 
 					<a className="header-menu-toggle" href="#0"><span>Menu</span></a>
 				</div>
-				</header> {/* end s-header */}
+				</header>
 
-		{/* home
-   		================================================== */}
 		<section>
 		<div id="home">
 		 <div className="s-home page-hero target-section" data-parallax="scroll" data-natural-width={3000} data-natural-height={2000} data-position-y="center">
@@ -40,7 +35,7 @@ export default class Header extends Component {
   		    <div className="shadow-overlay" />
   		     <div className="home-content">
     			<div className="row home-content__main">
-      			<h3>Hello There</h3>
+      			<h3>Hello,</h3>
       			<h1>
         		   I am {resumeData.name}. <br />
         		   I am a {resumeData.role}
@@ -59,23 +54,11 @@ export default class Header extends Component {
         		   </a>
       			   </div>
     			</div>
-  		    </div> {/* end home-content */}
-  
-		{/* <ul className="home-social">
-    		 	{resumeData.socialLinks && resumeData.socialLinks.map(item =>{
-                                  return(
- 				  <li key={item.name}> 
-                    			<a href={`${item.url}`} target="_blank">
-					<i className={item.className}></i></a>
-				  </li>
-                            	)})}  		
-		    </ul> */} 
-  {/* end home-social */}
+  		    </div> 
    </div>
   </div>
-</section> {/* <!--end s-home--> */}
-
-      
+</section>
+     
 </>
     );
   }

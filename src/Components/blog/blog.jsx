@@ -36,12 +36,13 @@ return (
           <div className="blog-date">
             <a href="blog-single.html">Sept 15, 2017</a>
           </div>  
-          <h2 className="h01"><a href="blog-single.html">Photography Can Improve Your Graphic Design.</a></h2>
+          <h2 className="h01"><a href="blog-single.html">Awarded The President’s Undergraduate Research Award for research proposal, “Engineering Recombinant Protein for Quantum Dot Tagging Systems."</a></h2>
           <p>
-            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+          Graduate Student Mentor: Allison Denise, Principal Investigator: Dr. Gang Bao. Conducted Several Biomolecular Assays and aided in the publication of the following paper:
+          "Resonance Energy Transfer Between Luminescent Quantum Dots and Diverse Fluorescent Protein Acceptors"
           </p>
           <div className="blog-cat">
-            <a href="blog.html">Photography</a>
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2777665/pdf/nihms-150911.pdf">NIH</a>
           </div>
         </article>
         <article className="col-block">

@@ -87,7 +87,7 @@ body {
     font-family: "librebaskerville-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
-    color: #5f5f5f;
+    color: #676863;
     margin: 0;
     padding: 0;
 }
@@ -98,7 +98,7 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #862121;
+    color: #fdfdfd;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -2790,6 +2790,16 @@ html.no-csstransitions .home-content__main {
     color:white;
 }
 
+.slider{
+    height:700px !important;
+}
+
+.center{   
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    display: block
+}
 /* ------------------------------------------------------------------- 
  * responsive:
  * testimonials
@@ -3574,12 +3584,12 @@ article.blog-single .blog-content {
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: .16rem;
-    color: rgba(255, 255, 255, 0.8);
+    color:#60615b;
     font-family: "montserrat-bold", sans-serif;
 }
 
 .page-header__cat a {
-    color: rgba(255, 255, 255, 0.8);
+    color:#60615b;
 }
 
 .page-header__cat a:hover, .page-header__cat a:focus, .page-header__cat a:active {

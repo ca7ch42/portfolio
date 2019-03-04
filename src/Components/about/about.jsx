@@ -57,7 +57,7 @@ export default class About extends Component {
               <p>{this.props.resumeData.skillsDescription}</p>
             </div>
           <div key="skillTable" className="col-six tab-full right">
-              <h3>I've Got Some skills.</h3>
+              <h3>Web Development and Information Technology Skills.</h3>
               <ul className="skill-bars">
                 {skillsList}
               </ul>

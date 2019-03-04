@@ -3,13 +3,12 @@ let resumeData = {
   "name": "Christopher Lacey",
   "role": "Pharmacist, Biomedical Engineer and Computer Specialist",
   "linkedinId":"Your LinkedIn Id",
-  "skypeid": "Your skypeid",
-  "roleDescription": "",
+  "roleDescription": "Pharmacist",
   "socialLinks":[
       
 		{
 		"name":"linkedin",
-		"url":"https://www.linkedin.com/",
+		"url":"https://www.linkedin.com/in/christopher-lacey-284a2720/",
 		"className":"fa fa-linkedin"
 		},
       
@@ -18,16 +17,10 @@ let resumeData = {
 		"url":"http://github.com/",
 		"className":"fa fa-github"
 		},
-      
-		{
-		"name":"skype",
-		"url":"http://skype.com",
-		"className":"fa fa-skype"
-		}
 			],
  
      
-     "aboutme":"Hello! It's a pleasure to meet you. I'm Catherine, a Florida based pharmacist, biomedical engineer and computer specialist bringing local businesses to life. Currently, I work as a pharmacist at Grace Pharmacy. In my spare time, I am working on computers or websites which has lead to some amazing collaborations with many people and organizations.",
+     "aboutme":"Hello! It's a pleasure to meet you. I'm Christopher, a Florida based pharmacist, biomedical engineer and computer specialist bringing local businesses to life. Currently, I work as a pharmacist at Grace Pharmacy. I work on computers or websites in my spare time, which has lead to some amazing collaborations with many people and organizations.",
   
      "resumesource": "https://www.dropbox.com/s/v7o15h9cvm8bvab/resume%20cjavellana.pdf?dl=0",
 
@@ -42,27 +35,31 @@ let resumeData = {
    {
  			"UniversityName":"University of Florida",
 	    "CityName": "Gainesville, FL",      
-			"specialization":"Communication Sciences and Disorders, Pre-Med",
-			"timeframe":"August 2006 - May 2011",
+			"specialization":"Pharmacy Doctorate",
+			"timeframe":"August 2011 - July 2015",
     },
     
   	{
- 			"UniversityName":"Georgia Technical Institute",
+ 			"UniversityName":"Georgia Institute of Technology",
 	    "CityName": "Atlanta, GA",      
-			"specialization":"Biomedical Engineering",
+			"specialization":"B.S. Biomedical Engineering",
 			"timeframe":"May 2004 - December 2008",
-    }
-, 
+    }, 
 	  {
 		 "UniversityName":"CriticalPoint LLC",
 			"specialization":"Sterile Compounding eLesson Curriculum",
 			"timeframe":"December 2016", 
-    }
-,           
+    },           
  {
-		"UniversityName":"",  
-		"specialization":"",
-		"timeframe":"",
+		"UniversityName":"Universidad de Navarra",  
+		"specialization":"Pharmacy Work Abroad",
+		"timeframe":"October 2014 - December 2014",
+	},
+
+	{
+		"UniversityName":"Hong Kong University of Science and Technology",  
+		"specialization":"Electrical Engineering, GT Study Abroad Program",
+		"timeframe":"August 2006 – January 2007",
   }
 ],
 
@@ -227,49 +224,107 @@ let resumeData = {
 
      portfolioArr:[
 		{
-			"href":"#modal-01",
-			"name":"Proton Pump Inhibitors",	
-			"description":"wordpress website",
-			"imgurl":"images/ppiheaderphoto.png",     
-			"url":"images/ppt/PPI_Presentation Chris Lacey.ppt",
-			"summary":"Proton Pump Inhibitors",
-			"category":"website, wordpress"
+			"name":"Pasturella Presentation",	
+			"description":"Pasturella patient case",
+			"imgurl":"/images/bacteremia.png",     
+			"url":"/images/ppt/Pasturella_case.ppt",
+			"summary":"Case presentation - Bacteremia"
 		},
-					
+
 		{
-		 "href":"#modal-01",
+			"name":"Tedizolid",	
+			"description":"Discussion of Tedizolid & Establish Clinical Trials",
+			"imgurl":"/images/tedizolid.png",     
+			"url":"/images/ppt/Tedizolid_ESTABLISH1.pptx",
+			"summary":"Case presentation - Tedizolid"
+		},
+
+		{
+			"name":"Proton Pump Inhibitors",	
+			"description":"Evaluating Proton Pump Inhibitors in Hospital Pharmacy",
+			"imgurl":"/images/ppiheaderphoto.png",     
+			"url":"/images/ppt/PPI_PresentationChrisLacey.pptx",
+			"summary":"Proper Use of Proton Pump Inhibitors"
+		},
+		
+		{
+			"name":"Dosage Forms",	
+			"description":"Nonsterile Compounding Techniques & Medication Dosage Forms",
+			"imgurl":"/images/dose.png",     
+			"url":"/images/ppt/Dose_forms.pptx",
+			"summary":"Dosage Forms & Compounding"
+		},
+
+		{
+			"name":"Inhaled Medications Presentation",	
+			"description":"An Overview of Hospital Inhalation Medications",
+			"imgurl":"/images/inhalation.png",     
+			"url":"/images/ppt/InhaledMedications_updated.pptx",
+			"summary":"Recognize, Name, Recall, & Arrange Inhalation Medications"
+		},
+
+		{
+			"name":"Status Asthmaticus Presentation",	
+			"description":"Asthma Attack Patient Case",
+			"imgurl":"/images/asthma.png",     
+			"url":"/images/ppt/Status_Asthmaticus.pptx",
+			"summary":"Evaluation of Drug Therapy for Status Asthmaticus"
+		},
+
+		{
+			"name":"Senior Design 1",	
+			"description":"Biomedical Engineering Senior Design Project 1: Design Concept",
+			"imgurl":"/images/design1.png",     
+			"url":"/images/ppt/Design1.ppt",
+			"summary":"Magnetostrictive Wound Monitoring Support Layer"
+		},
+
+		{
+			"name":"Senior Design 2",	
+			"description":"Biomedical Engineering Senior Design Project 2: Prototype Testing Results",
+			"imgurl":"/images/design2.png",     
+			"url":"/images/ppt/Design2.ppt",
+			"summary":"Magnetostrictive Wound Monitoring Device"
+		},
+
+		{
+			"name":"Muscle Recruitment & Stretching",	
+			"description":"The Effects of Stretching Before & After Exercise",
+			"imgurl":"/images/3161.png",     
+			"url":"/images/ppt/3161.ppt",
+			"summary":"Characterization of Motor Unit Recruitment Following Short-term Creatine Loading via Surface Electromyogram Signal Analysis"
+		},
+
+		{
+			"name":"Biostatistics Poster",	
+			"description":"Power Loss Analysis & Fontan Surgery",
+			"imgurl":"/images/fontan.png",     
+			"url":"/images/ppt/Biostatistics.ppt",
+			"summary":"Illustrate Manifestations of Power Loss by the Heart in TCPC"
+		},
+
+		{
 		  "name":"Clearwater Chinese School",
-		  "description":"wordpress website",
-		  "imgid":"modal-01",
-		  "imgurlm":"images/portfolio/modals/m-clearwater chinese school.gif" ,     
-		  "imgurl":"images/portfolio/clearwater chinese school.png",
-    	"url":"http://mychinese.org/",
-		  "summary":"Local non-profit language school website created with wordpress.",
-			"category":"website, wordpress"
+		  "description":"A website created with Wordpress",   
+		  "imgurl":"/images/chineseschool.png",
+			"url":"http://mychinese.org/",
+			"summary":"Clearwater Chinese School Website"
 		},
 
 		{ 
-			"href":"#modal-02",
 		  "name":"Tai Chi Chi Gong",
-	    "description":"website",
-		  "imgid":"modal-02",
-		  "imgurlm":"images/portfolio/modals/m-taichichigong.png" ,      
-		  "imgurl":"images/portfolio/taichichigong.png",
-		  "url":"http://www.taichichigong.com/",
-		  "summary":"A local business website crafted with Bootstrap/JS",
-			"category":"website" 
+	    "description":"A website created with Wordpress",     
+		  "imgurl":"/images/taichichigong.png",
+			"url":"http://www.taichichigong.com/",
+			"summary":"Master Ching's Tai Chi Chi Gong Website"
 		},
 
 		{ 
-			"href":"#modal-03",
 		  "name":"Lacey Computer",
-      "description":"website",
-		  "imgid":"modal-03",      
-		  "imgurl":"images/portfolio/laceycomputer.jpg",
-		  "imgurlm":"images/portfolio/modals/m-laceycomputer.jpg",
-		  "url":"http://www.laceycomputer.net/",
-		  "summary":"A local business website crafted with Wordpress",
-			"category":"website, wordpress"
+      "description":"A website created with Wordpress",    
+		  "imgurl":"/images/laceycomputer.jpg",
+			"url":"http://www.laceycomputer.net/",
+			"summary":"Lacey Computer Company Website"
 		}
 	],
 
