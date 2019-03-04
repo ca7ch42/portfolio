@@ -2832,6 +2832,9 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 600px) {
+    .slider{
+        height:550px !important;
+    }
     .testimonials {
         margin-top: 3rem;
     }
@@ -4128,6 +4131,7 @@ article.blog-single .blog-content {
 
 .slider a.nextButton > svg > polygon, .slider a.previousButton > svg > polygon  {
     fill:white;
+    stroke:crimson;
 }
 
 
