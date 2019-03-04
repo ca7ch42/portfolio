@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
-
 export default class portfolioArr extends Component {
 	
 	render() { let resumeData = this.props.resumeData;
@@ -13,10 +12,12 @@ export default class portfolioArr extends Component {
               <div style={{textAlign:"center"}} key={index}>
                 <h2 style={{color:"white"}}>{works.name}</h2>
                 <div>{works.description}</div>
-                <img src=""/>
+                <img src={works.imgurl}/>
+                <a href={works.href} target="_blank">Case presentation - Proton Pump Inhibitors</a>
               </div>)}
           </Slider>
       </section> 
     );
 	}
 }
+ 
