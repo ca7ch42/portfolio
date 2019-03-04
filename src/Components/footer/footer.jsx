@@ -12,7 +12,7 @@ export default class Footer extends Component {
         <div className="row">
           <div className="col-full">
             <div className="footer-logo">
-              <a className="footer-site-logo" href="#0"><img src="/images/logo.png" alt="Homepage" /></a>
+              <a className="footer-site-logo" href="#top"><img src="/images/logo.png" alt="Homepage" /></a>
             </div>
             <ul className="footer-social">
               {resumeData.socialLinks && resumeData.socialLinks.map((item) =>{
@@ -26,12 +26,6 @@ export default class Footer extends Component {
             </ul>
           </div>
         </div>
-      
-            <div className="go-top" style={{display: 'block'}} >
-              <a className="smoothscroll" title="Back to Top" href="#top">
-                <i className="im im-arrow-up" aria-hidden="true" />
-              </a>  
-            </div> 
       </footer>
       </React.Fragment>
           );

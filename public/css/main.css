@@ -495,8 +495,9 @@ ol,
 dl, 
 form, 
 .video-container, 
-.ss-custom-select {
-    margin-bottom: 3rem;
+.ss-custom-select 
+{
+/*   margin-bottom: 3rem;*/
 }
 
 
@@ -1296,6 +1297,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     text-align: center;
 }
 
+p.bigSpace {
+    margin: 7px 0px;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:

@@ -32,33 +32,31 @@ let resumeData = {
      educationArr:[
     
     {
- 			"UniversityName":"University of Florida",
-	    "CityName": "Gainesville, FL",      
+ 			"universityName":"University of Florida",      
 			"specialization":"Pharmacy Doctorate",
 			"timeframe":"August 2011 - July 2015",
     },
     
   	{
- 			"UniversityName":"Georgia Institute of Technology",
-	    "CityName": "Atlanta, GA",      
+ 			"universityName":"Georgia Institute of Technology",    
 			"specialization":"B.S. Biomedical Engineering",
 			"timeframe":"May 2004 - December 2008",
 		}, 
 		
 	  {
-		 "UniversityName":"CriticalPoint LLC",
+		 "universityName":"CriticalPoint LLC",
 			"specialization":"Sterile Compounding eLesson Curriculum",
 			"timeframe":"December 2016", 
 		},     
 		      
   	{
-		"UniversityName":"Universidad de Navarra",  
+		"universityName":"Universidad de Navarra",  
 		"specialization":"Pharmacy Work Abroad",
 		"timeframe":"October 2014 - December 2014",
 		},
 
 	{
-		"UniversityName":"Hong Kong University of Science and Technology",  
+		"universityName":"Hong Kong University of Science and Technology",  
 		"specialization":"Electrical Engineering, GT Study Abroad Program",
 		"timeframe":"August 2006 – January 2007",
   }

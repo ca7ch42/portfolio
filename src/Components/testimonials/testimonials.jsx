@@ -8,7 +8,7 @@ export default class Testimonials extends Component {
     
 	return (
   <section>
-  <div className="s-testimonials">
+  <div id="certifications" className="s-testimonials">
 
           <div className="overlay"/>
           <div className="row testimonials-header">
@@ -21,39 +21,31 @@ export default class Testimonials extends Component {
                 <div className="blog-list block-1-2 block-tab-full">
                   <article className="col-block">
                     <h2 className="h01"><a href="blog-single.html">Pharmacy and Healthcare:</a></h2>
-                    <p>
+                    <p className="bigSpace"/>
                     Pharmacist License (Florida): PS54720
                     <div className="blog-date">
                       <a href="blog-single.html">Sept, 2019</a>
-                    </div>
-                    </p>
-                    <p>
-                    Immunization Certificate Number: 20-482184 
-                    </p>
-                    <p>
-                    CPR+, CarePoint, Kronos, Cerner, Pyxis, Pyxis ES, Omnicell, Epic
-                    </p>
-                    <p>
-                    Institutional Review Board and HIPPA certified, CPR / First aid (certified lifeguard), Cholesterol, Blood Glucose, Blood Pressure, Bone Density, Body Fat Percentage Screening, Blood Borne Pathogens Certified
-                    </p>
-                    <p>
-                    Mandarin (fluent), Spanish (fluent)
-                    </p>
+                    </div>                   
+                    <p className="bigSpace"/>
+                    Immunization Certificate Number: 20-482184                     
+                    <p className="bigSpace"/>
+                    CPR+, CarePoint, Kronos, Cerner, Pyxis, Pyxis ES, Omnicell, Epic                    
+                    <p className="bigSpace"/>
+                    Institutional Review Board and HIPPA certified, CPR / First aid (certified lifeguard), Cholesterol, Blood Glucose, Blood Pressure, Bone Density, Body Fat Percentage Screening, Blood Borne Pathogens Certified                    
+                    <p className="bigSpace"/>
+                    Mandarin (fluent), Spanish (fluent)                  
                   </article>
                   <article className="col-block">
                     <h2 className="h01"><a href="blog-single.html">Engineering and Information Technology.</a></h2>
-                    <p>
+                    <p className="bigSpace"/>
                     Engineer in Training License: EIT024116
                     <div className="blog-date">
                       <a href="blog-single.html">Doesn't Expire</a>
                     </div>  
-                    </p>
-                    <p>
+                    <p className="bigSpace"/>
                     X-ray Imaging, Harvard Syringe Pump, Affinity Chromatography, Immunoblotting, SDS-PAGE, PCR, Confocal Microscopy, UV/Vis Spectroscopy, Fume Hood and Lab Safety Certified
-                    </p>
-                    <p>
+                    <p className="bigSpace"/>
                     Matlab, Solid Edge, Simulink, Labview, BUGS, MINITAB, BIOPAC, Chem Office, HTML, Ibrow, Image J software, Microsoft Access, Project, Outlook
-                    </p>
                   </article>
                 </div>
               </div>
