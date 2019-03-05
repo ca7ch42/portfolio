@@ -4,7 +4,7 @@ import 'react-animated-slider/build/horizontal.css';
 
 export default class portfolioArr extends Component {
 	
-	render() { let resumeData = this.props.resumeData;
+	render() {
     return (
       <section> 
           <Slider>
@@ -12,8 +12,8 @@ export default class portfolioArr extends Component {
               <div id="works" style={{textAlign:"center"}} key={index}>
                 <h2 style={{color:"white"}}>{works.name}</h2>
                 <div style={{color:"#f62626"}}>{works.description}</div>
-                <img src={works.imgurl} className="center" height="500" width="600"/>
-                <a href={works.url} target="_blank">{works.summary}</a>
+                <img src={works.imgurl} className="center" height="500" width="600" alt="works"/>
+                <a href={works.url} target="_blank" rel="noopener noreferrer">{works.summary}</a>
               </div>)}
           </Slider>
       </section> 

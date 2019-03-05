@@ -6,8 +6,6 @@ import About from './Components/about/about';
 
 import Works from './Components/works/works';
 
-import Photoswipe from './Components/photoswipe/photoswipe';
-
 import Testimonials from  './Components/testimonials/testimonials';
 
 import Blog from './Components/blog/blog';
@@ -30,8 +28,6 @@ import resumeData from './resumeData';
 				<About resumeData={resumeData}/>
 
 				<Works resumeData={resumeData}/>
-
-				<Photoswipe resumeData={resumeData}/>
     
 				<Testimonials resumeData={resumeData}/>
         
