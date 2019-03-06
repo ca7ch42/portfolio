@@ -21,12 +21,12 @@ export default class Testimonials extends Component {
                   <article className="col-block">
                     <h2 className="h01"><a href="blog-single.html">Pharmacy and Healthcare:</a></h2>
                     <p className="bigSpace"/>
-                    Pharmacist License (Florida): PS54720
+                    Pharmacist License (Florida)
                     <div className="blog-date">
                       <a href="blog-single.html">Sept, 2019</a>
                     </div>                   
                     <p className="bigSpace"/>
-                    Immunization Certificate Number: 20-482184                     
+                    Immunization Certificate                    
                     <p className="bigSpace"/>
                     CPR+, CarePoint, Kronos, Cerner, Pyxis, Pyxis ES, Omnicell, Epic                    
                     <p className="bigSpace"/>
@@ -37,7 +37,7 @@ export default class Testimonials extends Component {
                   <article className="col-block">
                     <h2 className="h01"><a href="blog-single.html">Engineering and Information Technology.</a></h2>
                     <p className="bigSpace"/>
-                    Engineer in Training License: EIT024116
+                    Engineer in Training License
                     <div className="blog-date">
                       <a href="blog-single.html">Doesn't Expire</a>
                     </div>  
