@@ -45,7 +45,6 @@ export default class About extends Component {
     <div key="aboutMe">
       <div className="row narrow section-intro has-bottom-sep">
               <div className="col-full text-center">
-                <h3>About</h3>
                 <h1>More About Me</h1>
               </div>
           </div>
@@ -78,14 +77,15 @@ export default class About extends Component {
                 {skillsList}
               </ul>
           </div>
-            <div className="row about-content about-content--buttons">
-            <div className="col-six tab-full left">
-              <a target="_BLANK" rel="noopener noreferrer" href={`${this.props.resumeData.resumesource}`} className="btn btn--primary full-width">Download My CV</a>
-            </div>
-            <div className="col-six tab-full right">
-              <a href="#contact" className="btn full-width">Hire Me Now</a>
-            </div>
-          </div>
+         
+        {/* <div className="row about-content about-content--buttons">
+              <div className="col-six tab-full left">
+                  <a target="_BLANK" rel="noopener noreferrer" href={`${this.props.resumeData.resumesource}`} className="btn btn--primary full-width">Download My CV</a>
+              </div>
+              <div className="col-six tab-full right">
+                  <a href="#contact" className="btn full-width">Hire Me Now</a>
+              </div> 
+            </div>*/}
          </div>
     </div> 
     );

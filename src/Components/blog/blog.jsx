@@ -12,7 +12,6 @@ return (
   <div className="s-blog target-section">
   <div className="row narrow section-intro has-bottom-sep">
     <div className="col-full">
-      <h3>Journal</h3>
       <h1>Publications</h1>
       <p className="lead">Please review samples of my pharmacy and biomedical engineering work.</p>
     </div>

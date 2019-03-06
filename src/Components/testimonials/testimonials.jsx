@@ -22,9 +22,9 @@ export default class Testimonials extends Component {
                     <h2 className="h01"><a href="blog-single.html">Pharmacy and Healthcare:</a></h2>
                     <p className="bigSpace"/>
                     Pharmacist License (Florida)
-                    <div className="blog-date">
-                      <a href="blog-single.html">Sept, 2019</a>
-                    </div>                   
+                    {/* <div className="blog-date">
+                        <a href="blog-single.html">Sept, 2019</a>
+                        </div>  */}               
                     <p className="bigSpace"/>
                     Immunization Certificate                    
                     <p className="bigSpace"/>
@@ -38,9 +38,9 @@ export default class Testimonials extends Component {
                     <h2 className="h01"><a href="blog-single.html">Engineering and Information Technology.</a></h2>
                     <p className="bigSpace"/>
                     Engineer in Training License
-                    <div className="blog-date">
-                      <a href="blog-single.html">Doesn't Expire</a>
-                    </div>  
+                    {/* <div className="blog-date">
+                        <a href="blog-single.html">Doesn't Expire</a>
+                        </div>  */}
                     <p className="bigSpace"/>
                     X-ray Imaging, Harvard Syringe Pump, Affinity Chromatography, Immunoblotting, SDS-PAGE, PCR, Confocal Microscopy, UV/Vis Spectroscopy, Fume Hood and Lab Safety Certified
                     <p className="bigSpace"/>
